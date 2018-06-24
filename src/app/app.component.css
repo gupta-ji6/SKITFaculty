@@ -1,0 +1,27 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  .login-card{
+      
+      width: 30vw;
+      padding: 25px;
+      -webkit-box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    border-radius: .375rem;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    background-color: white;
+  }
+  .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(148,42,37);
+background: linear-gradient(180deg, rgba(148,42,37,1) 50%, rgba(255,255,255,1) 100%);
+  }
